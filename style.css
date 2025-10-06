@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'MyLocalFont'; /* Nom personnalisé de la police */
+    src: url('./fonts/SuperGroovy-Regular.ttf') format('truetype');
+    font-weight: normal; /* Poids de la police */
+    font-style: normal;  /* Style de la police */
+}
+
+@font-face {
+    font-family: 'MaPoliceTexte'; /* Nom personnalisé de la police */
+    src: url('./fonts/roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal; /* Poids de la police */
+    font-style: normal;  /* Style de la police */
+}
+
+html {
+
+	scroll-behavior: smooth;
+
+}
+
+body {
+
+	background: linear-gradient(90deg,#007dfb, #83f7c2);
+	margin: 0;
+
+}
+
+section {
+
+	padding: 70px 20px 200px 20px;
+	//height: 650px;
+	text-align: center;
+	margin: 50px 0px 50px 0;
+	height: 600px;
+
+
+
+}
+
+#presentation {
+
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	height: auto;
+}
+
+h1 {
+
+	text-align: center;
+	color: #0029f9;
+	font-family: 'MyLocalFont';
+	font-size: 4em;
+	text-shadow: 5px 5px 5px #f5ee6c;
+
+}
+
+h3 {
+	text-align: center;
+	color: #0029f9;
+	font-family: 'MyLocalFont';
+	font-size: 3em;
+	text-shadow: 5px 5px 5px #f5ee6c;
+}
+
+h2 {
+
+	//font-family: 'MyLocalFont';
+	font-size: 2em;
+
+}
+
+#presentation {
+
+	height: 650px;
+}
+
+#image_presentation {
+
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px;
+
+}
+
+#texte_presentation {
+
+	display: inline-block;
+	width: 70%;
+	vertical-align: middle;
+	padding-left: 50px;
+	text-align: left;
+	font-family: 'MaPoliceTexte';
+
+}
+
+nav {
+
+//text-align: center;
+position: fixed;
+top: 0px;
+left: -330px;
+z-index: 10;
+transform: rotate(-90deg);
+margin-top: 350px;
+
+}
+
+button {
+
+	font-size: large;
+	background-color: transparent;
+	border-radius: 20px;
+	width: 200px;
+	height: 50px;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-weight: bold;
+	box-shadow: -10px 2px 2px #f5ee6c;
+	border: none;
+	transition: transform 0.5s ease;
+	color: #010093;
+
+}
+
+button:hover {
+
+	//background-color: darkgrey;
+	transform: scale(1.1);
+
+}
+
+a {
+
+	text-decoration: none;
+	color: #010093;
+}
+
+
+.image {
+
+	display: inline-block;
+	width: 40%;
+	text-align: center;
+	vertical-align: middle;
+		margin: auto;
+
+}
+
+.texte {
+
+	display: inline-block;
+	width: 50%;
+	vertical-align: middle;
+	margin: auto;
+	text-align: justify;
+	font-family: 'MaPoliceTexte';
+
+}
+
+footer {
+
+height: 150px;
+
+padding-top: 100px;
+text-align: center;
+
+}
+
+#button_home {
+
+	font-size: medium;
+	background-color: blue;
+	border-radius: 20px;
+	width: 70px;
+	height: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#home {
+
+position: fixed;
+bottom : 20px;
+right: 20px;
+width: 50px;
+height: 100px;
+
+}
+
+#fleche_haut {
+	box-shadow: none;
+	opacity: 60%;
+}
+
+#fleche_animee {
+	box-shadow: none;
+	width: 150px;
+}
+
+img {
+
+	border-radius: 20px;
+	transition: transform 0.5s ease;
+	width: 80%;
+	box-shadow: 5px 5px 5px grey;
+}
+
+
+img:hover {
+
+	transform: scale(1.2);
+}
+
+
+#projet1, #projet3 {
+      clip-path: polygon(
+      	0 0,
+        100% 20%,
+        100% 100%,
+        0% 80%,
+        0 20%
+      );
+      background: lightblue;
+      margin-top: 50px;
+
+    }
+
+#projet2 {
+      clip-path: polygon(
+      	0 20%,
+        100% 0%,
+        100% 80%,
+        0% 100%,
+        0 20%
+      );
+      background: lightblue;
+
+      margin-top: 50px;
+
+    }
+
+
+ #call2action {
+
+ 	text-align: center;
+ }
